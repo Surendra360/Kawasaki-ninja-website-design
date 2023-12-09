@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(9, 79, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: gilroy;
+    
+}
+.overlay{
+    width: 90vw;
+    height: 90vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.626), rgba(35, 35, 35, 0.23));
+    border-radius: 10px;
+    box-shadow: 1px 0 5px 3px black;
+
+}
+.nav{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: rgb(209, 209, 209);
+}
+.nav-part1>h1{
+    font-weight: 600;
+}
+.nav-part2>ul{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    font-size: 2vh;
+    letter-spacing: 3px;   
+}
+.nav-part2>ul>li:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px rgb(0, 255, 0);
+    cursor: pointer;
+}
+.nav-part3>i{
+    font-size: 3vh;
+    letter-spacing: 40px;
+}
+.nav-part3>i:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px rgb(0, 255, 0);
+    cursor: pointer;
+}
+.container{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img>img{
+    width: 40vw;
+    height: 85vh;
+    filter: contrast(1.5);
+}
+.detail{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.d1>h1{
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.d1>p{
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.d2>p{
+    width: 30vw;
+    font-weight: 400;
+    font-size: 15px;
+}
+.d2>button{
+    margin-top: 20px;
+    width: 10vw;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(2, 201, 2);
+    border: none;
+    border-radius: 5px;
+}
+.d3{
+    width: 50vw;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.377);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.b1{
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.b1>h3{
+    font-weight: 400;
+}
+.c1:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.645);
+}
+.c2:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.645);
+}
+.c3:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.645);
+}
